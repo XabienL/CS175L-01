@@ -1,11 +1,16 @@
 #Xabien Loor
 #stocks
 
+#sharesPurchased = 2000
+#pricePerShare = 40.00
+#sharesSold = 2000
+#priceSoldPerShare = 42.75
+
 #inputs
-sharesPurchased = 2000
-pricePerShare = 40.00
-sharesSold = 2000
-priceSoldPerShare = 42.75
+sharesPurchased = float(input("Enter number of shares purchased: "))
+pricePerShare = float(input("Enter price per share: "))
+sharesSold = float(input("Enter number of shares sold: "))
+priceSoldPerShare = float(input("Enter price sold per share: "))
 
 #calculations
 pricePaidFor = sharesPurchased * pricePerShare
